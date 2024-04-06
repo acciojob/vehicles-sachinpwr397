@@ -3,7 +3,7 @@ package com.driver;
 public class F1 extends Car {
 
     public F1(String name, boolean isManual) {
-        super(name, isManual); // Call the constructor of the superclass (Car)
+        super(name, 4, 2, 6, isManual, "F1", 1); // Call the constructor of the superclass (Car) with appropriate parameters
     }
 
     @Override
